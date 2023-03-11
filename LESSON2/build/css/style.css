@@ -1078,6 +1078,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:flex-col {
     flex-direction: column;
   }
