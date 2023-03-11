@@ -84,7 +84,7 @@
 
         <hr class="mx-auto bg-black dark:bg-white w-1/2">
 
-        <section id="testimonials" class="p-6 my-12">
+        <section id="testimonials" class="p-6 my-12 scroll-mt-20">
             <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
                 Testimonials
             </h2>
@@ -128,10 +128,14 @@
 
         <hr class="mx-auto bg-black dark:bg-white w-1/2">
 
-        <section id="contact" class="p-6 my-12">
+        <section id="contact" class="p-6 my-12 scroll-mt-16">
             <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
                 Contact Us
             </h2>
+            <form action="" class="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col items-left gap-4">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required minlength="3" maxlength="60" placeholder="Your Subject" class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none" />
+            </form>
         </section>
     </main>
 
