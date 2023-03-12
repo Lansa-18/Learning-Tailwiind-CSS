@@ -11,4 +11,4 @@
         mobileMenu.addEventListener('click', toggleMenu);
     }
 
-    initApp();
+    document.addEventListener('DOMContentLoaded', initApp);
